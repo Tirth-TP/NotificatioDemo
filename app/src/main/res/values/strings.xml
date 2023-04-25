@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NotificatioDemo</string>
+    <string name="breakfast_notification_channel_id">hello</string>
+</resources>
