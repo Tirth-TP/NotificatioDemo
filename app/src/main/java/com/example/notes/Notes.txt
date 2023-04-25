@@ -4,6 +4,7 @@ package com.example.notes
  * Created by Tirth Patel.
  */
 
+For send notification from postman:
  URL :  https://fcm.googleapis.com/fcm/send
 
  Body :
