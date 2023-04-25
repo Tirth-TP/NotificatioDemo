@@ -1,0 +1,31 @@
+package com.example.notes
+
+/**
+ * Created by Tirth Patel.
+ */
+
+ URL :  https://fcm.googleapis.com/fcm/send
+
+ Body :
+
+    {
+     "to" : "f-z_XXo0Tj6XrueyE4alQZ:APA91bENhyEuU9yozdIkeLoiVyKia_qEibXvLtn5bCPVLzxc7iLKnmFlpxQ-f_K3-cY0DiH_0WX9opoWoRpp_u8RcjFhhdaZmJRRuBN831CL9mcPhJivVTnk-6hWGiGMpDn6QnF-prWk",
+     "collapse_key" : "type_a",
+     "notification" : {
+         "body" : "Title",
+         "title": "Meet",
+         "image" : "https://youtu.be/D99KaxC7GRo"
+     },
+     "data" : {
+         "body" : "Click here",
+         "title": "Title of Your Notification in Title",
+         "image" : "https://youtu.be/D99KaxC7GRo"
+     }
+    }
+
+    // to : collect this TOKEN from FirebaseMessagingService() onNewToken method.
+Header :
+
+    Authorization : key=AAAA6Zvr6cw:APA91bEHMY26r2eENrogUyWIKLX2DBSREU6NqGa-76cW3bsD8qPMM8DrVOQVo3oV4UiwgOrB-a1waPUggZFD04OKsfI6ms9UWfUq226olpPoU6uEBd4EdejgM6huUKsgh8pEASLkELhz
+    // Collect from Firebase console Project settings -> Cloud Messaging -> Cloud Messaging API (Legacy) -> Server Key
+    Content-Type : application/json
